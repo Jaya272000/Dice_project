@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(97, 40, 230);  
+      
+}
+
+h1{
+    color:white;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.butn{
+    justify-content: center;
+    text-align: center;
+}
+button {
+    margin-top: 20px;
+    color: white;
+    background-color: black;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer; 
+
+}
+button:hover {
+    background-color: white;
+    color: black;
+}
